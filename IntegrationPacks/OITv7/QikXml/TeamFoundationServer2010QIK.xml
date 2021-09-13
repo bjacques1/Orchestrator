@@ -1,0 +1,431 @@
+<QIK>
+  <ToolkitVersion>7.0</ToolkitVersion>
+  <Product>Integration Pack for Microsoft Team Foundation Server 2010</Product>
+  <Manufacturer>Orchestrator on CodePlex</Manufacturer>
+  <ProductCode>188e83c0-c934-45eb-98e0-3a7ba679c178</ProductCode>
+  <UpgradeCode>14cc10ce-5bdc-4169-b23b-05eddc612425</UpgradeCode>
+  <Version>1.5</Version>
+  <SupportUpgrade>True</SupportUpgrade>
+  <UpgradeFrom>Any</UpgradeFrom>
+  <Eula />
+  <Category id="4e5fdf96-9cad-4233-8607-400288353bb6">
+    <Name>Team Foundation Server 2010</Name>
+    <Description>Activities for Team Foundation Server 2010</Description>
+    <SmallImage>BMP_CATEGORY_16</SmallImage>
+    <LargeImage>BMP_CATEGORY_32</LargeImage>
+    <ImageMask>000000</ImageMask>
+    <ObjectTypes>
+      <ObjectType id="5b6f16d9-acc3-44bc-8aa7-4c03e461ac8a">
+        <Name>Get Work Item</Name>
+        <Description>Retrieves detailed information of a work item by ID</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetWorkItem</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="bd767863-ca97-49e4-a32d-dc2ea05f30a8">
+        <Name>New Work Item</Name>
+        <Description>Create a new work item</Description>
+        <Class>TeamFoundationServerIntegrationPack.NewWorkItem</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="96edae45-17d8-4f16-84b0-f16f60e763b6">
+        <Name>Query Work Items</Name>
+        <Description>Queries work items using the Work Item Query Language</Description>
+        <Class>TeamFoundationServerIntegrationPack.QueryWorkItems</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="0a109cbe-a043-4479-9a4d-64c9db81fd9a">
+        <Name>Set Work Item</Name>
+        <Description>Change the fields of the state of a work item</Description>
+        <Class>TeamFoundationServerIntegrationPack.SetWorkItem</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="a8e9325f-7304-4d83-837e-789ebb1ff34e">
+        <Name>Check In</Name>
+        <Description>Check in pending changes to the version control server</Description>
+        <Class>TeamFoundationServerIntegrationPack.CheckIn</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="928c3978-8e81-47a0-9e6d-12dc6e259386">
+        <Name>Check Out</Name>
+        <Description>Check out for adding, deleteing, or editting from the version control server</Description>
+        <Class>TeamFoundationServerIntegrationPack.CheckOut</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="51ce9e00-b555-469c-b744-797cc5aacf3e">
+        <Name>Download file</Name>
+        <Description>Download a file from the version control server</Description>
+        <Class>TeamFoundationServerIntegrationPack.DownloadFile</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="507ca3ae-c49d-4528-b1ac-d37c6b1aee63">
+        <Name>List Version Control Items</Name>
+        <Description>Lists files and directories at a version control server</Description>
+        <Class>TeamFoundationServerIntegrationPack.ListVersionControlItems</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="94de4136-1315-411b-a29f-71f6975371da">
+        <Name>Update Workspace</Name>
+        <Description>Update the workspace to the latest version from the version control server</Description>
+        <Class>TeamFoundationServerIntegrationPack.UpdateWorkspace</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="bf4176da-9911-4294-b5d9-1916a60a7f78">
+        <Name>Get Build Definitions</Name>
+        <Description>Get the build definitions in a team project</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetBuildDefinitions</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="2e8b111a-4620-487e-8a2f-3685fb2c61b5">
+        <Name>Get Build Details</Name>
+        <Description>Get the build details</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetBuildDetails</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="aeb5d000-50fc-488b-b1dc-a76a0e25ef38">
+        <Name>Request Build</Name>
+        <Description>Request a new build with optional shelveset and drop location</Description>
+        <Class>TeamFoundationServerIntegrationPack.RequestBuild</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="70460b8c-84a2-4200-911b-71bb6ef5b5d8">
+        <Name>Set Build Details</Name>
+        <Description>Change the build details</Description>
+        <Class>TeamFoundationServerIntegrationPack.SetBuildDetails</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="6b146329-f1a1-4f24-861a-dcd1f8b29cdd">
+        <Name>Monitor Build</Name>
+        <Description>Monitors queued build and triggers when the status is changing or changed</Description>
+        <Class>TeamFoundationServerIntegrationPack.MonitorBuild</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>True</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="4fc2733d-9533-4950-80b6-d541aaf40dd7">
+        <Name>Monitor Work Items Query</Name>
+        <Description>Monitors the result of work items query and triggers if the number of result changes</Description>
+        <Class>TeamFoundationServerIntegrationPack.MonitorWorkItemsQuery</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>True</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="b103a3a3-d12f-42cd-8703-592231bd1159">
+        <Name>Get Changeset</Name>
+        <Description>Get the details of a changeset</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetChangeset</Class>
+        <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="b2e84b47-f649-4064-a055-a23fc0698793">
+        <Name>Add Test Case Result</Name>
+        <Description>Add a test case result to a test run</Description>
+        <Class>TeamFoundationServerIntegrationPack.AddTestCaseResult</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="9a7cafdd-fc81-4da3-b9da-7a63f4d645af">
+        <Name>Create Test Run</Name>
+        <Description>Create a test run in a team project</Description>
+        <Class>TeamFoundationServerIntegrationPack.CreateTestRun</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="140baecf-bd15-416a-a1f8-0a8d9245f8cd">
+        <Name>Get Test Configurations</Name>
+        <Description>Get the list of test configurations in a team project</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetTestConfigurations</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="ea5707c7-afbc-4632-9ca3-7a44b0a1da8a">
+        <Name>Get Test Plans</Name>
+        <Description>Get the list of test plans in a team project</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetTestPlans</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="cbfd7909-d51b-434e-ab88-32baef1436f9">
+        <Name>Get Test Runs</Name>
+        <Description>Get the list of test runs in a team project or all projects</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetTestRuns</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="408e401e-d696-4e24-b2a0-35c1df3eb961">
+        <Name>Get Test Suites</Name>
+        <Description>Get the test suites in a team project</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetTestSuites</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="51dd90ea-36e1-4d2a-9cac-5e27dcb77fa9">
+        <Name>Get Shelveset</Name>
+        <Description>Get the details of a shelveset or a list of shelvesets</Description>
+        <Class>TeamFoundationServerIntegrationPack.GetShelveSet</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="c2ef4c22-13a2-4691-b4ff-9dca78897473">
+        <Name>Create Manual Build</Name>
+        <Description>Create a manual build in TFS</Description>
+        <Class>TeamFoundationServerIntegrationPack.CreateManualBuild</Class>
+        <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>TFS Connection Settings</Name>
+          <Class>TeamFoundationServerIntegrationPack.TfsConnectionSettings</Class>
+          <Library>C:\Temp\TeamFoundationServerIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+    </ObjectTypes>
+  </Category>
+  <Dependencies>
+    <Include>C:\temp\TeamFoundationServerIntegrationPack.pdb</Include>
+  </Dependencies>
+</QIK>

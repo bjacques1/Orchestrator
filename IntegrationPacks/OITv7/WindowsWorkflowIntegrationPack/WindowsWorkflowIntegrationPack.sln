@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsWorkflowIntegrationPack", "WindowsWorkflowIntegrationPack.csproj", "{BA9C044A-D967-458C-9819-63EBEB2FED8C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WindowsWorkflowIntegrationPack.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA9C044A-D967-458C-9819-63EBEB2FED8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9C044A-D967-458C-9819-63EBEB2FED8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9C044A-D967-458C-9819-63EBEB2FED8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9C044A-D967-458C-9819-63EBEB2FED8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>Runbook</Word>
+    </Recognized>
+    <Deprecated>
+      <Term PreferredAlternate="Orchestrator">Opalis</Term>
+    </Deprecated>
+  </Words>
+  <Acronyms>
+    <CasingExceptions>
+      <Acronym>ID</Acronym>
+      <Word>TestOutcome</Word>
+    </CasingExceptions>
+  </Acronyms>
+</Dictionary>

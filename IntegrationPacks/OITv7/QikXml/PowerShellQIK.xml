@@ -1,0 +1,130 @@
+<QIK>
+  <ToolkitVersion>7.0</ToolkitVersion>
+  <Product>Integration Pack for Microsoft PowerShell 2</Product>
+  <Manufacturer>Orchestrator on CodePlex</Manufacturer>
+  <ProductCode>b777c89c-090c-43f4-83a6-8828b2793202</ProductCode>
+  <UpgradeCode>dd136f2e-214a-4f76-b870-904da69ab7e7</UpgradeCode>
+  <Version>1.3</Version>
+  <SupportUpgrade>True</SupportUpgrade>
+  <UpgradeFrom>Any</UpgradeFrom>
+  <Eula />
+  <Category id="c881d8b5-df21-4a77-ba47-d26355c5f626">
+    <Name>PowerShell</Name>
+    <Description>Integration Pack for Microsoft PowerShell 2</Description>
+    <SmallImage>BMP_CATEGORY_16</SmallImage>
+    <LargeImage>BMP_CATEGORY_32</LargeImage>
+    <ImageMask>000000</ImageMask>
+    <ObjectTypes>
+      <ObjectType id="7886a6de-6cb5-4eae-b149-e9eb84d0b779">
+        <Name>Close Runspace</Name>
+        <Description>Close the PowerShell runspace by the name</Description>
+        <Class>PowerShellIntegrationPack.CloseRunspace</Class>
+        <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>PowerShell Settings</Name>
+          <Class>PowerShellIntegrationPack.PowerShellSettings</Class>
+          <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="13055480-d6c1-4e30-afb2-42bec11068cb">
+        <Name>Open Runspace</Name>
+        <Description>Open a PowerShell runspace with the specified name</Description>
+        <Class>PowerShellIntegrationPack.OpenRunspace</Class>
+        <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>PowerShell Settings</Name>
+          <Class>PowerShellIntegrationPack.PowerShellSettings</Class>
+          <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="0ea98884-e7c0-4512-b689-3a070f1e6aaf">
+        <Name>Run Script</Name>
+        <Description>Run PowerShell script</Description>
+        <Class>PowerShellIntegrationPack.RunScript</Class>
+        <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>PowerShell Settings</Name>
+          <Class>PowerShellIntegrationPack.PowerShellSettings</Class>
+          <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="1830a930-2b5a-4238-b54f-2eb2dd2ae59c">
+        <Name>Set Credential</Name>
+        <Description>Create a PSCredential object and assign to a variable</Description>
+        <Class>PowerShellIntegrationPack.SetCredential</Class>
+        <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>PowerShell Settings</Name>
+          <Class>PowerShellIntegrationPack.PowerShellSettings</Class>
+          <Library>C:\temp\PowerShellIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="c51cd931-52d2-44ec-80e7-1e8193946f36">
+        <Name>Flush Runspace Log</Name>
+        <Description>Flush the output and error logs of the PowerShell runspace by the name</Description>
+        <Class>PowerShellIntegrationPack.FlushRunspaceLog</Class>
+        <Library>C:\Temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>PowerShell Settings</Name>
+          <Class>PowerShellIntegrationPack.PowerShellSettings</Class>
+          <Library>C:\Temp\PowerShellIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="f7648ba7-9b1f-4769-8be1-14f949ad8271">
+        <Name>Quick Run Script</Name>
+        <Description>Run 32-bit PowerShell script without impersonation</Description>
+        <Class>PowerShellIntegrationPack.QuickRunScript</Class>
+        <Library>C:\Temp\PowerShellIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name />
+          <Class />
+          <Library />
+        </ConfigurationType>
+      </ObjectType>
+    </ObjectTypes>
+  </Category>
+  <Dependencies>
+    <Include>C:\temp\PowerShellIntegrationPack.pdb</Include>
+    <Include>C:\temp\PowerShellInvoke-x64.exe</Include>
+    <Include>C:\temp\PowerShellInvoke-x64.pdb</Include>
+    <Include>C:\temp\PowerShellInvoke-x86.exe</Include>
+    <Include>C:\temp\PowerShellInvoke-x86.pdb</Include>
+    <Include>C:\Temp\README.txt</Include>
+  </Dependencies>
+</QIK>

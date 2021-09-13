@@ -1,0 +1,108 @@
+<QIK>
+  <ToolkitVersion>7.0</ToolkitVersion>
+  <Product>Integration Pack for Windows Workflow 4</Product>
+  <Manufacturer>Microsoft</Manufacturer>
+  <ProductCode>1087f2c4-cb7f-4dbb-ae27-9e0fde650876</ProductCode>
+  <UpgradeCode>1f47a831-99a5-4ab2-83e6-adc1c4da142b</UpgradeCode>
+  <Version>1.1</Version>
+  <SupportUpgrade>True</SupportUpgrade>
+  <UpgradeFrom>Any</UpgradeFrom>
+  <Eula />
+  <Category id="114d8b6c-1d79-4dee-a612-807e15c15516">
+    <Name>Windows Workflow 4</Name>
+    <Description>Activities for hosting Windows Workflow 4</Description>
+    <SmallImage>BMP_CATEGORY_16</SmallImage>
+    <LargeImage>BMP_CATEGORY_32</LargeImage>
+    <ImageMask>000000</ImageMask>
+    <ObjectTypes>
+      <ObjectType id="b3480ba4-8f5b-4c81-95ac-90a4eaebb6b6">
+        <Name>Get Workflow Status</Name>
+        <Description>Gets the status of a workflow and retrieves results if completed</Description>
+        <Class>WindowsWorkflowIntegrationPack.GetWorkflowStatus</Class>
+        <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name />
+          <Class />
+          <Library />
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="c72a470b-f86f-45e5-b2d7-da7304128477">
+        <Name>Resume Workflow</Name>
+        <Description>Resumes a unloaded Windows Workflow from persistence store</Description>
+        <Class>WindowsWorkflowIntegrationPack.ResumeWorkflow</Class>
+        <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>Windows Workflow Settings</Name>
+          <Class>WindowsWorkflowIntegrationPack.WorkflowSettings</Class>
+          <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="31039c94-b5d0-4700-b25b-0d097d7f1623">
+        <Name>Start Workflow</Name>
+        <Description>Starts a Windows Workflow</Description>
+        <Class>WindowsWorkflowIntegrationPack.StartWorkflow</Class>
+        <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name>Windows Workflow Settings</Name>
+          <Class>WindowsWorkflowIntegrationPack.WorkflowSettings</Class>
+          <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="e3a7f244-190d-43bd-b15e-a9d0320888a4">
+        <Name>Terminate Workflow</Name>
+        <Description>Terminates a workflow execution</Description>
+        <Class>WindowsWorkflowIntegrationPack.TerminateWorkflow</Class>
+        <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name />
+          <Class />
+          <Library />
+        </ConfigurationType>
+      </ObjectType>
+      <ObjectType id="12f67141-937c-40f8-bdc6-a1c7172ac84c">
+        <Name>Unload Workflow</Name>
+        <Description>Persists and unloads a workflow execution</Description>
+        <Class>WindowsWorkflowIntegrationPack.UnloadWorkflow</Class>
+        <Library>C:\Temp\WindowsWorkflowIntegrationPack.dll</Library>
+        <SmallImage>BMP_QIK_DOTNET_16</SmallImage>
+        <LargeImage>BMP_QIK_DOTNET_32</LargeImage>
+        <ImageMask>000000</ImageMask>
+        <ShowFilters>True</ShowFilters>
+        <ShowInputs>True</ShowInputs>
+        <Event>False</Event>
+        <ConfigurationType>
+          <Name />
+          <Class />
+          <Library />
+        </ConfigurationType>
+      </ObjectType>
+    </ObjectTypes>
+  </Category>
+  <Dependencies>
+    <Include>C:\Temp\WindowsWorkflowIntegrationPack.pdb</Include>
+  </Dependencies>
+</QIK>
